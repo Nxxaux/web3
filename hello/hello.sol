@@ -33,7 +33,7 @@ contract FunctionCall {
         return address(this).balance;  //合约地址余额
     }
 
-    function test4()public returns(string memory){
+    function testHello()public returns(string memory){
         return "hello"
     }
 }
